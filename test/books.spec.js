@@ -16,7 +16,7 @@ describe('Bookstore', async ()=> {
        
       });
     
-      it.only('CREATE BOOK: create a book with Title, and Author', async()=> {
+      it('CREATE BOOK: create a book with Title, and Author', async()=> {
         const newTitle = randomstring;
         const newAuthor = randomstring;
         const credentials = {title: newTitle, author: newAuthor};
